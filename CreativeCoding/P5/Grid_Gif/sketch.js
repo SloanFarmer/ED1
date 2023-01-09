@@ -21,12 +21,9 @@ function draw() { // runs in a loop
   for (var y = 0; y < windowWidth; y = y + sideLen){
   for (var x = 0; x < windowWidth; x = x + sideLen){ // loop creates a row in x direction
 
-    quad(x, y,
-          x + sideLen, y,
-          x + sideLen, y + sideLen,
-          x, y + sideLen);
-
           image (gif, x, y, windowWidth/num, windowWidth/num);
+
+
 
 }
 }
