@@ -18,6 +18,8 @@ function draw() { // runs in a loop
   var num = 30; // number of squares in my array
   var sideLen = windowWidth/num; //side length
 
+  translate (-150, -150); // this will give your design a bleed effect
+
   for (var y = 0; y < windowWidth; y = y + sideLen){
   for (var x = 0; x < windowWidth; x = x + sideLen){ // loop creates a row in x direction
 
@@ -27,4 +29,7 @@ function draw() { // runs in a loop
 
 }
 }
+  function windowResized (){
+      resizeCanvas(windowWidth, windowHeight); // resizes and refreshes with browser
+  }
 }
