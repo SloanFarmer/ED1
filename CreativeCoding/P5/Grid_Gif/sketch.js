@@ -16,7 +16,7 @@ function draw() { // runs in a loop
   strokeWeight (1); // stroke weight 8 px
   translate (0, 0);
 
-  var num = 30; // number of squares in my array
+  var num = 20; // number of squares in my array
   var sideLen = windowWidth/num; //side length
 
   translate (-150, -150); // this will give your design a bleed effect
