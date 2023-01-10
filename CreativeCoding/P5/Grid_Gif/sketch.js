@@ -8,9 +8,10 @@ function preload(){
 
 function setup() { // runs one time
   createCanvas (windowWidth, windowWidth); //720px canvas
-  background (255,255,0)//background is grb yellow
+
 }
 function draw() { // runs in a loop
+  background (255,255,0);//background is grb yellow
   fill (255, 255, 0); // fills red
   strokeWeight (1); // stroke weight 8 px
   translate (0, 0);
@@ -26,10 +27,9 @@ function draw() { // runs in a loop
           image (gif, x, y, windowWidth/num, windowWidth/num);
 
 
-
+}
 }
 }
   function windowResized (){
       resizeCanvas(windowWidth, windowHeight); // resizes and refreshes with browser
   }
-}
