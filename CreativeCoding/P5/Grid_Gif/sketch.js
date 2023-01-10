@@ -3,7 +3,7 @@
 let gif;
 
 function preload(){
-  gif = loadImage (AssetsFile/Gif/FarmerCard.gif); //Preload my image gif
+  gif = loadImage ('AssetsFile/Gif/FarmerCard.gif'); //Preload my image gif
 }
 
 function setup() { // runs one time
